@@ -1,0 +1,289 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("/src/mont/Mont-ExtraLightDEMO.otf");
+}
+
+@font-face {
+  font-family: "CustomFontBold";
+  src: url("/src/mont/Mont-HeavyDEMO.otf");
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.topHeader {
+  background-color: #11346f;
+  padding-top: 0;
+}
+
+.topHeader p {
+  color: white;
+  font-family: "CustomFont";
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.mainMenu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "CustomFont";
+  background: rgba(245, 253, 255, 0.8);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(14px);
+}
+
+.imgMenu {
+  padding-left: 100px;
+  padding-top: 10px;
+}
+
+.middleMenu {
+  padding-right: 150px;
+}
+
+.middleMenu ul li {
+  padding-left: 60px;
+}
+
+.middleMenu #why {
+  font-weight: 800;
+}
+
+.orderNow {
+  padding-right: 100px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  list-style: none;
+  margin: 0;
+}
+
+.mainText {
+  display: flex;
+  font-family: "CustomFont";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  color: #11346f;
+  padding-left: 100px;
+}
+
+#boldText {
+  padding-left: 5px;
+  font-family: "CustomFontBold";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  color: #197aff;
+}
+
+.afterLanding {
+  display: flex;
+  font-family: "CustomFont";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  padding-left: 100px;
+}
+
+.sideText {
+  width: 40%;
+}
+
+.sideImg {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.cardsP {
+  display: flex;
+  background: rgba(174, 204, 255, 0.1);
+  border: 1px solid rgba(174, 204, 255, 0.5);
+  border-radius: 10px;
+  width: 800px;
+}
+
+.individCard {
+  width: 200px;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+  justify-content: center;
+  border-right: 1px solid #cee2ff;
+  margin: 20px;
+  text-align: center;
+}
+
+.individCard ul {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.individCard ul li {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+#lastCard {
+  border: none;
+}
+
+.bigButton {
+  margin-left: 100px;
+}
+
+.bigButton button {
+  background: #197aff;
+  border-radius: 60px;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  font-family: "CustomFontBold";
+  color: #ffffff;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.bigButton button:hover {
+  cursor: pointer;
+}
+
+.userDiv {
+  background: rgba(234, 242, 255, 0.1);
+  border: 1px solid rgba(174, 204, 255, 0.5);
+  border-radius: 110px;
+  float: right;
+  font-family: "CustomFont";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+  margin-right: 120px;
+}
+
+.userDiv p {
+  width: 240px;
+}
+
+.userDiv img {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.stars img {
+  width: 14px;
+  height: 14px;
+  padding: 0px;
+}
+
+.longBlue {
+  background-color: #11346f;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  font-family: "CustomFontBold";
+  color: white;
+}
+
+.panels {
+  padding: 10px;
+}
+
+.ads {
+  height: 370px;
+  background: linear-gradient(118.72deg, #aeccff -18.14%, #197aff 165.34%);
+  display: flex;
+  justify-content: space-between;
+  padding: 250px;
+  padding-top: 200px;
+}
+
+.adsPanel {
+  width: 368px;
+  height: 530px;
+  background: #f6f8fc;
+  opacity: 0.7;
+  border: 1.5px solid #197aff;
+  border-radius: 18px;
+}
+
+.adsPanel img {
+  position: relative;
+  top: -50px;
+  right: -100px;
+  width: 153px;
+  height: 120px;
+}
+
+.adsPanel p {
+  font-family: "CustomFont";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  color: #11346f;
+  text-align: center;
+}
+
+.adsPanel #price {
+  font-family: "CustomFontBold";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  color: #11346f;
+}
+
+.adsButton {
+  width: 331px;
+  height: 53px;
+  background: #197aff;
+  box-shadow: 0px 7px 14px rgba(25, 122, 255, 0.5);
+  border-radius: 60px;
+  margin-left: 15px;
+  border: none;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.adsButton:hover {
+  cursor: pointer;
+}
+
+.customersSaying {
+  height: 722px;
+  background: #f6f8fc;
+}
+
+.customersSaying h1 {
+  font-family: "CustomFont";
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 49px;
+  color: #11346f;
+  text-align: center;
+  padding-top: 20px;
+}
